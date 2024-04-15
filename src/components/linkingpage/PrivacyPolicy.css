@@ -1,0 +1,13 @@
+.policy{
+    color:  rgb(255,191,42);
+    padding: 20px;
+    margin: 20px;
+     
+}
+.policy-row{
+    border: 4px solid    rgb(255,191,42);
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 12px;
+
+}

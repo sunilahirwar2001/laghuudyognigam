@@ -1,0 +1,163 @@
+ 
+ 
+ /* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2px;
+  
+   
+} */
+.row{
+    display: flex;
+}
+.col{
+    display: grid;
+   justify-content: space-between;
+ 
+}
+.navbar{
+    display: flex;
+}
+/* .nav-item{
+margin-left: -20px;
+}
+.nav-item .nav-link{
+    width: 50px;
+    height: 50px;
+  padding: 12px;
+  color: wheat;
+
+} */
+/* .bgused{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+} */
+.nav-item .nav-link {
+    background-color: white;
+    color: black;
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+
+
+.nav-fill .nav-link{
+  color: rgb(237, 187, 2);
+    border-right: 1px solid wheat;
+}
+.buttonpart{
+   background-color: rgb(0, 0, 0);
+   font-family: 26px;
+   border: none;
+   padding: 0 10px 0;
+   height: auto;
+
+   color:rgb(237, 187, 2);
+   background: -webkit-linear-gradient(to right, #e86a41, rgb(255 88 144));
+   font-size: 13px;
+   width: 60px;
+   height: 37px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+
+
+
+.navbar-2{
+    background-color: rgb(0,0,0);
+}
+
+.logo{
+    width: 75px;
+    height: 76px;
+}
+
+.title{
+    margin-right: 19%;
+    color: rgb(255, 198, 0);
+    font-weight: bold;
+}
+
+.coal{
+    height: 85px;
+    width: 140px;
+
+    animation: alternate 2s infinite;
+}
+
+.eprocurement{
+    width: 250px;
+    height: 100px;   
+    animation: alternate 2s infinite;
+}
+
+@keyframes alternate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .coal, .eprocurement {
+    height: auto; 
+    width: auto; 
+    max-height: 85px;
+    max-width: 250px; 
+    animation: alternate 2s infinite alternate;
+  }
+  
+
+
+
+
+  
+
+
+
+   /* navbar 3  */
+
+   /* App.css */
+
+/* Hover effect for Navbar links */
+.navbar-3 .nav-link{
+    
+  background-color: black;
+  color: rgb(237, 187, 2);
+}
+
+.container-3{
+  background-color: black;
+  color: rgb(237, 187, 2);
+  margin-top: -10px;
+  
+}
+.navbar-3 .nav-link:hover,
+.navbar-3 .dropdown-item:hover {
+  background-color: rgb(237, 187, 2);
+}
+
+/* Prevent dropdown items from overlapping */
+.dropdown-menu {
+  position: absolute !important;
+}
+
+
+.boarddirector{
+    margin-left: 235px;
+    margin-top: -31px;
+}
+
+.itemsdatas{
+    color: wheat;
+}
+.whole-section-data{
+  margin-top: -1%;
+}

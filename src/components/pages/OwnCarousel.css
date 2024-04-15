@@ -1,0 +1,41 @@
+/* .carousel-control-prev, .carousel-control-next {
+    color: rgb(237, 187, 2);
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none; 
+  }
+  
+   */
+
+
+
+
+
+   /* Customize the left and right arrows */
+.carousel-control-prev, .carousel-control-next {
+    color: blue; /* Set arrow color */
+    border-radius: 50%; /* Make arrows round */
+    background-color: transparent; /* Remove default background color */
+    border: none; /* Remove default border */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-50%); /* Position vertically centered */
+  }
+  
+  /* Customize the arrow icons */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none; /* Remove default background image */
+  }
+  
+  /* Optional: Adjust arrow position */
+  .carousel-control-prev {
+    left: 10px; /* Set left offset */
+  }
+  
+  .carousel-control-next {
+    right: 10px; /* Set right offset */
+  }
+  

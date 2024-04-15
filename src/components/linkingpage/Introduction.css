@@ -1,0 +1,57 @@
+  .franchbg{
+text-transform: uppercase;
+background-color: rgb(53,151,188);
+padding: 25px;
+margin-top: -9px;
+}
+ .heading-section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+
+}
+.sub-section{
+    display: flex;
+  margin-left: 300%; 
+  color:rgb(247,185,41) ;
+ 
+}
+.sub-section Link{
+    color:rgb(247,185,41) ;
+}
+
+.second-part{
+background-color: black;
+}
+
+
+
+  
+.margranayani{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin-left: 350px;
+}
+.intro-class{
+        border: 5px solid rgb(247,185,41);
+        background-color: black;
+        padding: 12px;
+        margin: 50px;
+}
+.intro-class h3{
+    color: rgb(247,185,41);
+}
+.lineborder{
+    border: 10px solid rgb(247,185,41);
+ width: 50px;
+}
+.psectiondata{
+    color:rgb(247,185,41) ;
+    padding: 20px;
+}
+.psectiondata h5 {
+    text-align: center;
+}

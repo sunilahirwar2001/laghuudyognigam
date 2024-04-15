@@ -1,0 +1,52 @@
+.col-datas{
+    background-color: gray;
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+}
+.account{
+    background-color: rgb(255,101,52);
+  padding: 12px;
+}
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+}
+.loginform{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 12%;
+}
+.form-data{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin-left: 13%;
+}
+
+.input-with-icon {
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+  .input-with-icon {
+    position: relative;
+  }
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+
+  }
+    
+  .loginbutton{
+  background-color: rgb(92,184,92);
+  }

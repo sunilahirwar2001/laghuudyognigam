@@ -1,0 +1,81 @@
+.whole-section{
+    background-color: #0c0c0c;
+}
+
+
+.contains{
+    display: flex;
+    justify-content: space-around;
+    padding: 23px;
+    background-color: black;
+    color: rgb(255,191,42);
+    border: 4px solid rgb(255,206,93);
+}
+.imgselect{
+    width: 30px;
+    height: 37px;
+    font-size: 30px;
+   color: rgb(255,206,93);
+}
+.heart{
+    margin-top: -50%;
+}
+.ul li{
+   list-style-type: none;
+}
+
+.h1heading{
+    background-color: rgb(255,191,42);
+    color: black;
+    border: 2px solid  rgb(255,191,42);
+
+}
+.all-section{
+    text-align: center;
+ border: 2px solid  rgb(255,191,42);
+}
+.mnrega{
+  
+   width: 400px;
+
+   height: 200px;
+}
+.btn{
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 84%;
+    height: 57px;
+    width: 112px;
+    color:rgb(255,191,42);
+    background-color:rgb(255,191,42);
+}
+.btn:hover{
+    background-color: red;
+  
+}
+.mptourism{
+    background-color:rgb(255,191,42);
+    border: 2px solid #3d63d5;
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    color: #0c0c0c;
+    border-radius: 2px;
+    height: auto;
+    font-size: 25px;
+    font-weight: bold;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 15%;
+    
+}
+
+
+
+.imgmnariga{
+    border-radius: 50%;
+
+    background-color:rgb(255,191,42) ;
+    margin-top: 12%;
+    border: 10px solid  rgb(255,191,42) ;
+} 

@@ -1,0 +1,172 @@
+/* .cirlce span{
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.whole-section{
+    display: flex;
+     gap: 23px;
+     justify-content: space-around;
+    background-color:rgb(250,187,41);
+}
+.latest{
+    display: flex;
+ 
+    background-color: black;
+    color:rgb(250,187,41);
+   flex-direction: column;
+}
+.latest span{
+    background-color:rgb(250,187,41);
+    color: black;
+}
+
+.icon{
+    border-radius: 75%;
+    background-color: white;
+    font-size: 30px;
+}
+.hrtag{
+    border-top: 3px dotted rgb(250,187,41);;
+}
+
+.datedated{
+margin-left: 23%; */
+
+
+
+
+
+
+.circle span {
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 25px;
+  }
+  
+  .whole-section {
+    display: flex;
+    gap: 23px;
+    justify-content: space-around;
+    background-color: rgb(250, 187, 41);
+  }
+  
+  .latest {
+    display: flex;
+    background-color: black;
+    color: rgb(250, 187, 41);
+    flex-direction: column;
+    margin-top: 0px;
+}
+  
+  .latest span {
+    background-color: rgb(250, 187, 41);
+    color: black;
+  }
+  
+  .icon {
+    border-radius: 75%;
+    background-color: white;
+    font-size: 30px;
+  }
+  
+  .hrtag {
+    border-top: 3px dotted rgb(250, 187, 41);
+  }
+  
+  .datedated {
+    margin-left: 23%;
+  }
+  
+
+
+  .custom-button {
+    background-color: #ff9900; /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #ff6600; /* Change to your desired hover color */
+  }
+  
+  .dataitems{
+    animation: slidein 11.034s linear infinite; /* Animation name, duration, timing function, iteration count */
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+      transform: translateY(50px); /* Move the paragraph downwards */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Reset the position */
+    }
+  }
+  
+
+
+  .ptagused{
+    background-color: rgb(128,99,38);
+  }
+.btn{
+    width: 295px;
+    height: 54px;
+        
+        margin-left: -2%;
+        display: flex;
+        align-items: center;
+       
+        justify-content: flex-end;
+}
+
+.lastlistdata{
+    border-bottom: 4px solid rgb(247,185,41);
+}
+.container-fluid{
+    background-color: black;
+}
+.itdata{
+    border-bottom: 4px solid rgb(247,185,41);
+}
+/* 
+.latest {
+    background-color: black;
+    color: rgb(250, 187, 41);
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .latest span {
+    background-color: rgb(250, 187, 41);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+  
+  .icon {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+  }
+  
+  .hrtag {
+    border-top: 3px dotted rgb(250, 187, 41);
+  }
+  
+  .datedated {
+    margin-left: 23%;
+  }
+
+  .btn{
+    width: 295px;
+    height: 54px;
+
+  } */

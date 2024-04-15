@@ -1,0 +1,80 @@
+.accordion {
+  color: white;
+  height: 100%;
+}
+
+.button-1 {
+  background: rgb(68, 47, 94);
+}
+
+.button-2 {
+  background: rgb(143, 0, 19);
+}
+
+.button-3 {
+  background-color: rgb(116, 166, 50);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--bs-accordion-active-bg);
+  color: var(--bs-accordion-active-color);
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+.box1 .box2 .box3 .box4 .box5 .box6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 23px;
+} 
+.imgselection{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 67px;
+  background: white;
+  border: 15px solid white;
+}
+.iconadd{
+  font-size: 40px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  font-size: 40px;
+}
+
+.itemsdata{
+  margin-top: 5%;
+  margin: 15px;
+  padding: 41px;
+}
+
+.rowninedata{
+   color: white;
+   border: 2px solid  rgb(255,206,93);
+   padding: 30px;
+
+margin-bottom: 12px;
+ 
+  
+}
+.price{
+     display: flex;
+    justify-content: center;
+     align-items: center;
+    margin-top: -65px;
+    font-size: 22px;
+    background: black;
+    background-color: black;
+    color: white; 
+
+
+ 
+}

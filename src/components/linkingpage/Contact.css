@@ -1,0 +1,29 @@
+.intro-class h5{
+  display: flex;
+align-items: start !important;
+} 
+.table {
+    background-color: transparent !important;
+  }
+  
+  .table thead th,
+  .table tbody td {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  thead{
+    background-color: rgb(255,153,0) !important;
+    color: white;
+  }
+  
+  .even-row {
+    background-color: rgb(0, 255, 255) !important; 
+
+  }
+  
+  .odd-row {
+
+    background-color: black !important;
+
+  }
+  

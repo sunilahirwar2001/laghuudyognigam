@@ -1,0 +1,23 @@
+.feedback{
+    color:rgb(255,191,42)
+}
+.feedbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: 2px solid rgb(17,48,88);
+    margin-bottom: 10px;
+
+}
+.second-part{
+  
+    border: 3px solid  rgb(255,191,42);
+    padding: 12px;
+    margin: 20px;
+    background-color: black;
+}
+.feedback-data{
+    border: 2px solid rgb(255,191,42) ;
+    padding: 15px;
+}
