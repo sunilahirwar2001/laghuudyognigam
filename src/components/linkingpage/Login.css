@@ -1,4 +1,4 @@
-.col-datas{
+/* .col-datas{
     background-color: gray;
     overflow: auto;
     height: 100vh;
@@ -44,9 +44,63 @@
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
-
   }
     
   .loginbutton{
   background-color: rgb(92,184,92);
   }
+
+  
+@media only screen and (max-width: 767px) {
+  .col-datas {
+    padding: 0 10px; 
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .col-datas {
+    padding: 0 20px; 
+  }
+} */
+
+
+
+.login-container {
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  color: #6c757d;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.forgot-password-link {
+  color: #6c757d;
+}
+
+.forgot-password-link:hover {
+  text-decoration: none;
+  color: #6c757d;
+}

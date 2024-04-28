@@ -28,7 +28,7 @@ function ProductCategolue() {
       </Row>
     </Container>
 
-    <Container fluid className='second-part'>
+    <Container fluid className='second-behaoiur'>
       <Row className='intro-part'>
         <Col>
         <div className='intro-class'>

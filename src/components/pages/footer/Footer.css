@@ -58,3 +58,13 @@
   .itdata{
     border-bottom: 2px solid rgb(247,185,41);
   }
+
+  @media(max-width:767px){
+    /* .page-footer{
+      display: flex;
+      justify-content: start;
+      align-items: start;
+     margin-left: -40%;
+
+    } */
+  }

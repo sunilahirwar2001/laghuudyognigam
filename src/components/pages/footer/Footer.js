@@ -62,7 +62,6 @@ const Footer = () => (
         </div>
 
         <div className="col-md-3 mb-md-0 mb-3">
-          <h5 className="text-uppercase">Resources</h5>
           <ul className="list-unstyled">
             <li><a href="#!"><TbSquareArrowRightFilled/> Right To Information</a></li>
             <li><a href="#!"><TbSquareArrowRightFilled/> Downloads</a></li>
@@ -72,7 +71,6 @@ const Footer = () => (
         </div>
 
         <div className="col-md-3 mb-md-0 mb-3">
-          <h5 className="text-uppercase">Other Information</h5>
           <ul className="list-unstyled">
             <li><a href="#!"><TbSquareArrowRightFilled/> MPLUN branches map</a></li>
             <li><a href="#!"><TbSquareArrowRightFilled/> Act & Rules</a></li>

@@ -27,7 +27,7 @@ const Welcome = () => {
         <p>Madhya Pradesh Laghu Udyog Nigam (MPLUN) was incorporated in 1961 as a Madhya Pradesh Government Public Undertaking. Since then the Nigam has been making continuous progress and performing according to objectives of the company and as directed by Govt. time to time.</p>
            <p>In 1978 the Nigam was given task of providing marketing assistance to SSI sector through enabling public procurement for the State Government against rate contract of various products. </p>
        <p>Over the last six decades, MPLUN has been promoting the growth of Micro & Small Entreprises in the Madhya Pradesh and carrying out multidimensional activities such as Development, Construction & Maintenance of Industrial Areas, providing outlet to Weavers & Artisans of the State through renowned Mrignayani Emporiums, providing Iron/Steel & Coal to SSI sector and facilitating the testing of products manufactured by SSI sector etc. </p>
-       <button type="button" class="btn btn-warning">Warning</button>
+       <button type="button" className="btn-warning">Read More</button>
        
         </div>
 

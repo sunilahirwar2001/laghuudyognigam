@@ -1,5 +1,43 @@
-.chair{
-
-    width: 800px;
-    height: 313px;
-}
+@media (max-width: 767px) {
+    .chair {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 20px;
+    }
+    .second-behaoiur {
+      width: 100%;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; /* Hide horizontal overflow */
+    }
+    .intro-class {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 20px; 
+      margin-right: 20px; /* Add some right margin */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .chair {
+      width: 50%; 
+      height: auto; 
+      margin-bottom: 20px;
+    }
+   
+    .intro-class {
+      padding: 12px 0; 
+      margin-left: 20px; /* Add some left margin */
+      margin-right: 20px; /* Add some right margin */
+    }
+  }
+  
+  .chair {
+    width: 600px; /* Set default width for larger screens */
+    height: 313px; /* Set default height for larger screens */
+  }
+  
+  .second-behaoiur{
+    margin: 0px;
+  }

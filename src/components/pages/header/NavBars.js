@@ -14,11 +14,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Dropdown from 'react-bootstrap/Dropdown'
 import { Link } from 'react-router-dom';
 import './NavBars.css';
+import MyNavBars from './MyNavBars';
 const NavBars = () => {
   return (
     <>
         <Navbar bg="dark" data-bs-theme="dark" className='navbar'>
-        <Container>
+        <Container className='navcontainc-data'>
           <Nav className="ml-auto nav-item ">
             <Nav.Link href="#home" className='bgused'>A-</Nav.Link>
            
@@ -38,12 +39,12 @@ const NavBars = () => {
   <Nav.Link href="#pricing" >Skip to Nav Content</Nav.Link>
   <Nav.Link href="#pricing" >   <IoMdGlobe/> English</Nav.Link>
 </Nav>
-          <Form inline>
+     <Form>
         <Row>
           <Col xs="auto">
             <Form.Control
               type="text"
-              style={{backgroundColor:"white",width:"115%",borderTopLeftRadius:"10px",borderBottomLeftRadius:"10px" }}
+              style={{backgroundColor:"white",width:"100%",borderTopLeftRadius:"10px",borderBottomLeftRadius:"10px" }}
               placeholder="Search"
               className=" mr-sm-2 input-data"
             />
@@ -56,6 +57,7 @@ const NavBars = () => {
         </Container>
        
       </Navbar>
+      
       <h6 className="text-uppercase itdata"></h6>
       <Navbar expand="lg" className="navbar-2">
       <Container fluid className='whole-section-data'>
@@ -68,7 +70,7 @@ const NavBars = () => {
 <p>Madhya Pradesh Govt Undertaking
 </p>
 </div>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" className='epcoa'>
             <img  className='coal' src={coal}/ >
             <img  className='eprocurement' src={eprocurement}/ >
         </Navbar.Brand>  
@@ -145,15 +147,13 @@ const NavBars = () => {
             <Nav.Link as={Link} to='/pricvacypolicy' >POLICIES</Nav.Link>
             <Nav.Link as={Link} to='/csr'>CSR Us</Nav.Link>
 
-            <Nav.Link as={Link} to='/contactus' >Contact Us</Nav.Link>
-            <Nav.Link   as={Link} to='/feedbackforms'>FEEDBACK</Nav.Link>
-            <Nav.Link as={Link} to='/productcategolue'>PRODUCT CATALOGUE</Nav.Link>
+          <Nav.Link as={Link} to='/contactus' >Contact Us</Nav.Link>
+        <Nav.Link   as={Link} to='/feedbackforms'>FEEDBACK</Nav.Link>
+      <Nav.Link as={Link} to='/productcategolue'>PRODUCT CATALOGUE</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
 
 
     </>
@@ -161,3 +161,4 @@ const NavBars = () => {
 }
 
 export default NavBars
+

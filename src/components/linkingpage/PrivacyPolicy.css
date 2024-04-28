@@ -10,4 +10,9 @@
     background-color: black;
     margin-bottom: 12px;
 
+}@media (max-width:767px){
+     .sub-section{
+      margin-left: 90px;
+      margin-right: 0px;
+     }
 }

@@ -11,6 +11,9 @@ function RateList() {
         <Row>
           <Col>
           <h3  className="ratelist">ACTIVE RATE CONTACT LIST</h3>
+          <div className="table-responsive">
+
+          
             <Table striped bordered hover>
               <thead>
                 <tr>
@@ -67,6 +70,7 @@ function RateList() {
                 </tr>
               </tbody>
             </Table>
+            </div>
           </Col>
         </Row>
       </Container>

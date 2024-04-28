@@ -20,10 +20,12 @@ import CSR from './components/linkingpage/CSR';
 import Introduction from './components/linkingpage/Introduction';
 import Tender from './components/linkingpage/Tender';
 import PricvacyPolicy from './components/linkingpage/PricvacyPolicy';
+import Layout2 from './components/pages/home/Layout2';
 function App() {
   return (
     <>
-    {/* <BrowserRouter>
+    <BrowserRouter>
+    <NavBars/>
    <Routes>
     <Route path='/' element={<Layout/>} />
 <Route  path='/accordianuse' element={<AccordianUse/>}/>
@@ -38,13 +40,18 @@ function App() {
 <Route  path='/csr' element={<CSR/>} />
 <Route  path='/pricvacypolicy' element={<PricvacyPolicy/>} />
 <Route   path='/productcategolue' element={<ProductCategolue/>}      />
-
    </Routes>
-    </BrowserRouter> */}
-    <BrowserRouter>
-    <NavBars/>
+   <Footer/>
+    </BrowserRouter>
+
+
+    
+    {/* <BrowserRouter>
+
     <Routes>
+
     <Route path='/' element={<Layout/>} />
+    <Route path='/' element={<Layout2/>}  />
 <Route  path='/accordianuse' element={<AccordianUse/>}/>
 <Route path='/login' element={<Login/>} />
 <Route   path='/screeningreader' element={<ScreeningReader/>}  />
@@ -58,9 +65,9 @@ function App() {
 <Route  path='/pricvacypolicy' element={<PricvacyPolicy/>} />
 <Route   path='/productcategolue' element={<ProductCategolue/>}  />
     </Routes>
-    <SlickCarousel/>
-    <Footer/>
-    </BrowserRouter>
+    </BrowserRouter>  */}
+
+
     </>
   );
 }

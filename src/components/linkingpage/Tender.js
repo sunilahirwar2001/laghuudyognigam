@@ -11,21 +11,24 @@ import './Tender.css';
 function Tender() {
   return (
     <>
-    <Container fluid className='franchbg'>
-      <Row>
-        <Col>
-        <div className='heading-section'>
-           <h4> Tender</h4>
-           <div className='sub-section'>
-        <h6>Home</h6>/
-        <h6>TENDER</h6>
-           </div>
-        </div></Col>
+  <Container fluid className='tenderitems'>
+      <Row className="align-items-center ">
+        <Col xs={12} md={6}>
+          <div className='headings'>
+            <h4>Tender</h4>
+          </div>
+        </Col>
+        <Col xs={12} md={6} className="d-flex justify-content-end">
+          <div className="sub-section">
+            <h6>Home</h6> /
+            <h6>Tender</h6>
+          </div>
+        </Col>
       </Row>
     </Container>
-    
-  
+
     <Container fluid className='tender'>
+
       <Row>
         <Col md={12}>
           <h1 className='sub-title'>TENDER</h1>
@@ -35,9 +38,9 @@ function Tender() {
         <button className='reset'> <GrPowerReset />reset</button>
         <button className='print'> <IoMdPrint />print</button>
       </InputGroup>    
-      <div>
+      <div  className= "table-responsive" >
         
-        <Table  fluid className="table table-dark">
+        <Table  fluid className="table table-dark tablecssapply">
             <thead   className="thead-warning" style={{backgroundColor:" rgb(255,191,42)",color:" rgb(255,191,42)"}} >
               <tr>
                 <th scope="col">S.No.</th>
@@ -77,7 +80,7 @@ function Tender() {
                   Publication of Tender: 07-07-21
                 </td>
               </tr>
-              {/* Add more rows for additional tenders if needed */}
+             
             </tbody>
 
         </Table>

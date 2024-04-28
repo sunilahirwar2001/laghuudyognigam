@@ -8,14 +8,22 @@ margin-top: -9px;
     display: flex;
     justify-content: space-around;
     margin-left: 0px;
-
 }
-.sub-section{
-    display: flex;
-  margin-left: 300%; 
+.sub-section{ 
+  display: flex;
+margin-left: 300%;
   color:rgb(247,185,41) ;
- 
 }
+
+@media (max-width:767px){
+    .sub-section{
+     margin-left: 90px;
+     margin-right: 0px;
+    }
+}
+   
+
+
 .sub-section Link{
     color:rgb(247,185,41) ;
 }
@@ -55,3 +63,28 @@ background-color: black;
 .psectiondata h5 {
     text-align: center;
 }
+
+
+@media (max-width: 767px) {
+    .second-part {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .intro-class {
+      padding: 12px 0; /* Remove horizontal padding */
+      margin: 10px; /* Adjust margin for better spacing */
+    }
+    .margranayani {
+      width: 100%; /* Make the image full width */
+      height: auto; /* Maintain aspect ratio */
+      margin-left: 0; /* Remove margin */
+    }
+  }
+
+   /* @media (min-width: 768px) and (max-width: 991px) {
+     .margranayani {
+      width: 80%; 
+      margin-left: auto; 
+      margin-right: auto; 
+    }
+  }  */

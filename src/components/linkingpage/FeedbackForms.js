@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { IoMdPaperPlane } from "react-icons/io";
-
 import './FeedbackForms.css';
 function FeedbackForms() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState ({
     name: '',
     email: '',
     mobile: '',
@@ -105,4 +104,5 @@ function FeedbackForms() {
     </>
   );
 }
+
 export default FeedbackForms;

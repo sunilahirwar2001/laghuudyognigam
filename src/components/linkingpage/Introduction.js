@@ -14,7 +14,7 @@ const Introduction = () => {
         <Col>
         <div className='heading-section'>
            <h4> introduction</h4>
-           <div className='sub-section'>
+           <div className='sub-section d-flex justify-content-end"'>
         <h6>Home</h6>/
         <h6>Intoduction</h6>
            </div>

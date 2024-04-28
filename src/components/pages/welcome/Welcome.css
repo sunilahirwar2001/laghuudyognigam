@@ -40,13 +40,13 @@
 
    height: 200px;
 }
-.btn{
+.btn-warning{
     cursor: pointer;
     padding: 12px;
     margin-left: 84%;
     height: 57px;
     width: 112px;
-    color:rgb(255,191,42);
+    color:black;
     background-color:rgb(255,191,42);
 }
 .btn:hover{
@@ -77,5 +77,34 @@
 
     background-color:rgb(255,191,42) ;
     margin-top: 12%;
-    border: 10px solid  rgb(255,191,42) ;
+    border: 10px solid  #ffbf2a ;
 } 
+
+
+@media (max-width:767px){ 
+    .btn-warning{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 60%;
+        width: 150px;
+        background-color:rgb(255,191,42);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn-warning:hover{
+        background-color: red;
+    }
+    .mnrega{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .mptourism{
+        margin-top: -1px;
+    }
+
+
+  
+}

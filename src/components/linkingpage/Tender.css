@@ -1,12 +1,9 @@
 .heading-section{
     display: flex;
 }
-.tender{
-    background-color: black;
-    border:4px solid rgb(255,191,42) ;
-   padding: 20px;
-        margin-bottom: 46px;
-        margin-top: 34px;
+.tender{ 
+  background-color: black;
+  padding: 20px;
 }
 .search{
 background-color:  rgb(255,191,42);
@@ -28,10 +25,94 @@ background-color: rgb(40,167,69);
     background-color: #fff;
     z-index: 1021;
   }
-  .table{
+  .table {
     margin-bottom: 8px;
+     overflow-x: auto;
   }
   .table thead{
     color:  rgb(255,191,42);
+   
     background-color:  black;
   }
+
+ /* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 767px) {
+  .yellow-bar {
+    background-color: yellow;
+    height: 4px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+  }
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+@media (max-width:767px){
+     .sub-section{
+      margin-left: 90px;
+      margin-right: 0px;
+     }
+}
+.spacer {
+  flex-grow: 1;
+}
+.tenderitems{
+  background-color: rgb(53,151,188);
+
+
+}
+.headings{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  color:  rgb(255,191,42);
+}
+@media(max-width:767px){
+  .sub-section{
+ 
+  }
+}
+.tenderitems {
+  background: rgb(53, 151, 188);
+  padding-top: 20px; /* Add padding to the top to match the headings margin-top */
+  padding-bottom: 20px; /* Add padding to the bottom to match the headings margin-top */
+}
+
+.tenderitems .row {
+  margin-right: -15px; /* Override the negative margin added by Bootstrap */
+  margin-left: -15px; /* Override the negative margin added by Bootstrap */
+}
+
+.tenderitems .col {
+  padding-right: 15px; /* Add padding to match the container's left padding */
+  padding-left: 15px; /* Add padding to match the container's right padding */
+}
+
+
+
+
